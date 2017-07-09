@@ -28,6 +28,8 @@ header h1 {
   color: #861728;
   position: absolute;
   top: 80px;
+  white-space: nowrap;
+  overflow:hidden
 }
 
 

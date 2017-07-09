@@ -1,0 +1,105 @@
+/* Med One Red: #861728 */
+
+/*
+* {
+   border: 1px solid black;
+}*/
+
+body {
+  min-width: 900px;
+  max-width: 1920px;
+  font-family: Roboto, sans-serif;
+}
+
+
+/* Header */
+
+header {
+  background-image: url("http://i.imgur.com/SQmhfbv.png");
+  background-position: 0% 54%;
+  background-size: cover;
+  border-bottom: 5px solid #861728;
+  height: 200px;
+}
+
+header h1 {
+  font-size: 80px;
+  color: #861728;
+  position: absolute;
+  top: 80px;
+}
+
+
+/* Navigation Links */
+
+nav {
+  width: 180px;
+  float: left;
+  border-right: 2px solid #bbb;
+  background-color: #ddd;
+  /* height: 100%; */
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: #861728;
+  background-color: #eee;
+  /* font-family: comic sans ms; */
+  /* font-size: 50px; */
+}
+
+
+/* Main Content */
+
+main {
+  margin-left: 200px;
+}
+
+main h1 {
+  color: #861728;
+}
+
+
+/* Footer */
+
+footer {
+  clear: both;
+  background-color: #ddd;
+  border-top: 2px solid #bbb;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer ul {
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  width: 180px;
+  text-align: left;
+  background-color: #eee;
+  border-radius: 5px;
+  padding-bottom: 16px;
+}
+
+footer .location {
+  color: #861728;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #861728;
+  line-height: 30px;
+}
+
+footer i {
+  width: 20px;
+}

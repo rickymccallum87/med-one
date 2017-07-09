@@ -60,13 +60,17 @@ nav a:hover {
 /* Main Content */
 
 main {
-  margin-left: 200px;
+  margin: 20px 0px 0px 200px;
 }
 
 main h1 {
   color: #861728;
+  display: inline;
 }
 
+p {
+  margin: 0px 0px 20px 0px;
+}
 
 /* Footer */
 

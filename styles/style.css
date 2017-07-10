@@ -79,18 +79,19 @@ footer {
   background-color: #ddd;
   border-top: 2px solid #bbb;
   padding: 20px 0;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 footer ul {
   text-align: center;
+  padding: 0
 }
 
 footer li {
   display: inline-block;
   padding: 10px;
   margin: 5px;
-  width: 200px;
+  width: 190px;
   text-align: left;
   background-color: #eee;
   border-radius: 5px;

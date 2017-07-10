@@ -27,9 +27,9 @@ header h1 {
   font-size: 80px;
   color: #861728;
   position: absolute;
-  top: 80px;
+  top: 70px;
   white-space: nowrap;
-  overflow:hidden
+  overflow: hidden
 }
 
 

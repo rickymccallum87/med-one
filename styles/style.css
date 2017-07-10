@@ -1,6 +1,4 @@
-/* Med One Red: #861728 */
-
-/*
+/* Med One Red: #861728
 * {
    border: 1px solid black;
 }*/
@@ -13,7 +11,8 @@ body {
 }
 
 
-/* Header */
+/* Header
+Is there a more elegant way to position text against bottom border? */
 
 header {
   background-image: url("http://i.imgur.com/SQmhfbv.png");
@@ -40,7 +39,6 @@ nav {
   float: left;
   border-right: 2px solid #bbb;
   background-color: #ddd;
-  /* height: 100%; */
 }
 
 nav a {
@@ -54,8 +52,6 @@ nav a:hover {
   font-weight: bold;
   color: #861728;
   background-color: #eee;
-  /* font-family: comic sans ms; */
-  /* font-size: 50px; */
 }
 
 
@@ -73,6 +69,7 @@ main h1 {
 p {
   margin: 0px 0px 20px 0px;
 }
+
 
 /* Footer */
 

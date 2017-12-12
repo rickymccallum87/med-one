@@ -12,27 +12,6 @@ body {
 }
 
 
-/* Header
-Is there a more elegant way to position text against bottom border? */
-
-header {
-  background-image: url("http://i.imgur.com/SQmhfbv.png");
-  background-position: 0% 54%;
-  background-size: cover;
-  border-bottom: 5px solid #861728;
-  height: 200px;
-}
-
-header h1 {
-  font-size: 80px;
-  color: #861728;
-  position: absolute;
-  top: 70px;
-  white-space: nowrap;
-  overflow: hidden
-}
-
-
 /* Navigation Links */
 
 nav {
@@ -50,64 +29,9 @@ nav a {
 }
 
 nav a:hover {
-  font-weight: bold;
   color: #861728;
   background-color: #eee;
 }
 
 
 /* Main Content */
-
-main {
-  margin: 20px 0px 0px 200px;
-}
-
-main h1 {
-  color: #861728;
-  display: inline;
-}
-
-p {
-  margin: 0px 0px 20px 0px;
-}
-
-
-/* Footer */
-
-footer {
-  clear: both;
-  background-color: #ddd;
-  border-top: 2px solid #bbb;
-  padding: 20px 0;
-  margin-top: 50px;
-}
-
-footer ul {
-  text-align: center;
-  padding: 0
-}
-
-footer li {
-  display: inline-block;
-  padding: 10px;
-  margin: 5px;
-  width: 190px;
-  text-align: left;
-  background-color: #eee;
-  border-radius: 5px;
-}
-
-footer .location {
-  position: relative;
-  top: -5px;
-  color: #861728;
-  font-size: 18px;
-  text-transform: uppercase;
-  border-bottom: 2px solid #861728;
-  line-height: 30px;
-}
-
-footer i {
-  text-align: center;
-  width: 20px;
-}

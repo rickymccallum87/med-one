@@ -4,25 +4,22 @@
 }*/
 
 body {
-  min-width: 900px;
-  max-width: 1920px;
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  margin: 0 auto;
+  text-align: center;
+  font-family: /* Roboto, */ sans-serif;
+  font-size: 18px;
+}
+
+header {
+  color: #861728;
 }
 
 
 /* Navigation Links */
 
 nav {
-  width: 180px;
-  float: left;
-  border-right: 2px solid #bbb;
-  background-color: #ddd;
 }
 
 nav a {
-  display: block;
   text-decoration: none;
   padding: 10px;
   color: black;
@@ -30,8 +27,15 @@ nav a {
 
 nav a:hover {
   color: #861728;
-  background-color: #eee;
+  border-bottom: 5px solid #861728;
 }
 
 
 /* Main Content */
+
+/* Mobile App */
+
+#app {
+  background-image: url("my_gnp.jpg");
+  height: 500px;
+}

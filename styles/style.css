@@ -4,12 +4,12 @@
 }*/
 
 body {
-  text-align: center;
   font-family: /* Roboto, */ sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 header {
+  text-align: center;
   color: #861728;
 }
 
@@ -32,6 +32,10 @@ nav a:hover {
 
 
 /* Main Content */
+
+section {
+  height: 800px;
+}
 
 /* Mobile App */
 

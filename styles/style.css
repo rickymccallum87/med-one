@@ -24,11 +24,13 @@ header img {
 /* Navigation Links */
 
 nav {
+  padding-bottom: 15px;
+  border-bottom: solid grey 2px;
 }
 
 nav a {
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 20px;
   color: black;
 }
 
@@ -36,7 +38,6 @@ nav a:hover {
   color: #861728;
   border-bottom: 5px solid #861728;
 }
-
 
 /* Main Content */
 
@@ -56,6 +57,26 @@ h1, h2, h3 {
 
 /* Locations */
 
+#map {
+  float: left;
+  width: 60%;
+}
+
+#location-list {
+  float: left;
+  height: 800px;
+  width: 40%;
+  overflow-y: scroll;
+}
+
+#location-list ul li {
+  list-style-type: none;
+}
+
+.location {
+  color: #861728;
+  font-weight: bold;
+}
 
 /* Mobile App */
 

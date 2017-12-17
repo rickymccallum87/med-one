@@ -1,8 +1,8 @@
-/* Med One Red: #861728
+/* Med One Red: #861728 */
 * {
-   border: 1px solid black;
+   /* border: 1px solid black; */
 }
-*/
+
 body {
   font-family: /* Roboto, */ sans-serif;
   font-size: 20px;
@@ -17,7 +17,7 @@ header {
 }
 
 header img {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 30px;
 }
 
@@ -25,7 +25,6 @@ header img {
 
 nav {
   padding-bottom: 15px;
-  border-bottom: solid grey 2px;
 }
 
 nav a {
@@ -59,18 +58,26 @@ h1, h2, h3 {
 
 #map {
   float: left;
-  width: 60%;
+  width: 50%;
 }
 
 #location-list {
   float: left;
   height: 800px;
-  width: 40%;
+  width: 50%;
   overflow-y: scroll;
+}
+
+#location-list ul {
+  padding: 0;
+  margin: 20px;
 }
 
 #location-list ul li {
   list-style-type: none;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #861728;
+  margin-bottom: 10px;
 }
 
 .location {

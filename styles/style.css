@@ -6,6 +6,7 @@
 body {
   font-family: /* Roboto, */ sans-serif;
   font-size: 20px;
+  margin: 0;
 }
 
 
@@ -18,13 +19,12 @@ header {
 
 header img {
   margin-top: 25px;
-  margin-bottom: 30px;
 }
 
 /* Navigation Links */
 
 nav {
-  padding-bottom: 15px;
+  padding: 15px 0;
 }
 
 nav a {
@@ -41,8 +41,10 @@ nav a:hover {
 /* Main Content */
 
 section {
-  height: 800px;
-  vertical-align: middle;
+  height: 500px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 30px;
 }
 
 h1, h2, h3 {
@@ -50,20 +52,25 @@ h1, h2, h3 {
 }
 
 #home {
-  background-image: url(https://placeimg.com/640/480/nature);
+  /* background-image: url(https://placeimg.com/640/480/nature); */
   background-size: cover;
 }
 
 /* Locations */
 
+#locations {
+  max-width: 100%;
+}
+
 #map {
+  border: 0;
   float: left;
   width: 50%;
 }
 
 #location-list {
-  float: left;
-  height: 800px;
+  float: right;
+  height: 500px;
   width: 50%;
   overflow-y: scroll;
 }
@@ -74,15 +81,15 @@ h1, h2, h3 {
 }
 
 #location-list ul li {
+  clear: both;
   list-style-type: none;
   padding-bottom: 10px;
   border-bottom: 2px solid #861728;
   margin-bottom: 10px;
 }
 
-.location {
-  color: #861728;
-  font-weight: bold;
+#locations h3 {
+  margin: 0;
 }
 
 /* Mobile App */
@@ -92,8 +99,14 @@ h1, h2, h3 {
 }
 
 #app img {
-  max-width: 100%;
-  max-height: 100%;
   width: auto;
-  height: auto;
+  height: 100px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  font-size: small;
+  padding: 10px 0;
 }

@@ -62,27 +62,20 @@ h1, h2, h3 {
 /* Mobile App */
 
 #app {
-  background: url(images/my-gnp.jpg);
+  background: url(../images/my-gnp.jpg);
+  background-repeat: no-repeat;
   background-size: contain;
+  background-position: right;
 }
-
-/*
-#my-gnp {
-  height: 100%;
-  width: auto;
-  float: right;
-}
-*/
 
 #downloads {
-  padding-top: 180px;
-  padding-right: 50px;
-  float: right;
+  margin: 25px;
 }
 
 .download-button {
   width: auto;
   height: 80px;
+  margin-bottom: 10px;
 }
 
 /* Locations */
@@ -128,4 +121,17 @@ h1, h2, h3 {
 footer {
   text-align: center;
   font-size: small;
+}
+
+/* Responsive Layout */
+
+@media (max-width: 1024px) {
+
+#nav
+
+#app {
+  background: url(../images/my-gnp-crop.jpg);
+  background-size: cover;
+}
+
 }

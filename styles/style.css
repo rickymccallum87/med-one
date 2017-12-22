@@ -56,19 +56,23 @@ h1, h2, h3 {
 
 #home {
   /* background-image: url(https://placeimg.com/640/480/nature); */
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 /* Mobile App */
 
 #app {
+  background: url(images/my-gnp.jpg);
+  background-size: contain;
 }
 
+/*
 #my-gnp {
   height: 100%;
   width: auto;
   float: right;
 }
+*/
 
 #downloads {
   padding-top: 180px;

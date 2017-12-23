@@ -127,7 +127,10 @@ footer {
 
 @media (max-width: 1024px) {
 
-#nav
+nav a {
+  display: block;
+  padding: 20px 0;
+}
 
 #app {
   background: url(../images/my-gnp-crop.jpg);

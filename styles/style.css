@@ -1,12 +1,13 @@
 /* Med One Red: #800000 #861728 */
 * {
-  /* border: 1px solid black; */
+  /* border: 1px dotted black; */
 }
 
 body {
   font-family: /* Roboto, */ sans-serif;
   font-size: 1.5em;
   margin: 0;
+  min-width: 300px;
 }
 
 /* Header */
@@ -17,6 +18,7 @@ header {
 
 header img {
   width: 50%;
+  max-width: 250px;
   margin: 1em;
   /* height: 120px;
   width: auto;
@@ -26,11 +28,16 @@ header img {
 
 /* Navigation */
 
-nav {
-  /* padding: 15px 0; */
+nav ul {
+  margin: 0;
+  padding: 0;
 }
 
-nav a:first-child {
+nav li {
+  list-style-type: none;
+}
+
+nav li:first-child {
   display: none;
 }
 
@@ -42,10 +49,14 @@ nav a:link {
   /* padding: 10px 20px; */
 }
 
+nav a:visited {
+  color: black;
+}
+
 nav a:hover {
   color: #800000;
-  border-right: .25em solid #800000;
-  border-left: .25em solid #800000;
+  /* border-right: .25em solid #800000;
+  border-left: .25em solid #800000; */
 }
 
 nav a:active {
@@ -69,49 +80,63 @@ h1, h2, h3 {
   margin-top: 0;
 }
 
+/* Home */
+
 #home {
-  /* background-image: url(https://placeimg.com/640/480/nature); */
-  /* background-size: cover; */
+  height: 500px;
+  background-image: url(https://placeimg.com/640/480/nature);
+  background-size: cover;
+  background-position: center;
 }
 
 /* Mobile App */
 
 #app {
-  background: url(../images/my-gnp.jpg);
+  /* background: url(../images/my-gnp.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: right;
+  background-position: right; */
 }
 
-#downloads {
-  margin: 25px;
+#my-gnp {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 500px;
 }
 
 .download-button {
-  width: auto;
-  height: 80px;
-  margin-bottom: 10px;
+  width: 80%;
+  max-width: 400px;
+  display: block;
+  /* height: 80px; */
+  margin: 1em auto 0 auto;
+
+  /* margin-bottom: 10px; */
 }
 
 /* Locations */
 
 #locations {
   max-width: 100%;
-  height: 800px;
+  /* height: 800px; */
 }
 
 #map {
   border: 0;
+  width: 100%;
+  height: 500px;
+  /* border: 0;
   float: left;
   width: 50%;
-  height: 100%;
+  height: 100%; */
 }
 
 #location-list {
-  float: right;
+  /* float: right;
   height: 100%;
   width: 50%;
-  overflow-y: scroll;
+  overflow-y: scroll; */
 }
 
 #location-list ul {
@@ -131,11 +156,18 @@ h1, h2, h3 {
   margin: 0;
 }
 
+/* About Us */
+
+#about {
+  /* clear: both; */
+}
+
 /* Footer */
 
 footer {
   text-align: center;
   font-size: small;
+  padding: 1em;
 }
 
 /* Responsive Layout */
@@ -146,14 +178,17 @@ footer {
     border: 1px solid black;
   } */
 
-  nav a {
-    display: block;
-    padding: 20px 0;
+  header img {
+    width: 250px;
   }
 
-  #app {
-    background: url(../images/my-gnp-crop.jpg);
-    background-size: cover;
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 20px 0;
   }
 
 }

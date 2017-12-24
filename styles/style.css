@@ -132,19 +132,22 @@ h1, h2, h3 {
   height: 100%; */
 }
 
-#location-list {
-  /* float: right;
+/* #location-list {
+  float: right;
   height: 100%;
   width: 50%;
-  overflow-y: scroll; */
-}
+  overflow-y: scroll;
+} */
 
 #location-list ul {
-  padding: 0;
+  /* text-align: center; */
   /* margin: 20px; */
+  margin: 0;
+  padding: 0;
 }
 
 #location-list ul li {
+  /* text-align: left; */
   /* clear: both; */
   list-style-type: none;
   display: inline-block;

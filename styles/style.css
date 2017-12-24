@@ -1,11 +1,11 @@
-/* Med One Red: #861728 */
+/* Med One Red: #800000 #861728 */
 * {
-   /* border: 1px solid black; */
+  /* border: 1px solid black; */
 }
 
 body {
   font-family: /* Roboto, */ sans-serif;
-  font-size: 20px;
+  font-size: 1.5em;
   margin: 0;
 }
 
@@ -13,44 +13,59 @@ body {
 
 header {
   text-align: center;
-  color: #861728;
 }
 
 header img {
-  height: 120px;
+  width: 50%;
+  margin: 1em;
+  /* height: 120px;
   width: auto;
   margin-top: 25px;
-  margin-bottom: 5px;
+  margin-bottom: 5px; */
 }
 
-/* Navigation Links */
+/* Navigation */
 
 nav {
-  padding: 15px 0;
+  /* padding: 15px 0; */
 }
 
-nav a {
+nav a:first-child {
+  display: none;
+}
+
+nav a:link {
   text-decoration: none;
-  padding: 10px 20px;
   color: black;
+  display: block;
+  padding: 1em;
+  /* padding: 10px 20px; */
 }
 
 nav a:hover {
-  color: #861728;
-  border-bottom: 5px solid #861728;
+  color: #800000;
+  border-right: .25em solid #800000;
+  border-left: .25em solid #800000;
+}
+
+nav a:active {
+  color: white;
+  background-color: #800000;
+  /* color: #800000;
+  border-bottom: 5px solid #800000; */
 }
 
 /* Main Content */
 
 section {
-  height: 500px;
-  max-width: 1200px;
+  /* height: 500px; */
+  /* max-width: 1200px; */
   margin: 0 auto;
-  padding-top: 30px;
+  padding: 1em;
 }
 
 h1, h2, h3 {
-  color: #861728;
+  color: #800000;
   margin-top: 0;
 }
 
@@ -108,7 +123,7 @@ h1, h2, h3 {
   clear: both;
   list-style-type: none;
   padding-bottom: 10px;
-  border-bottom: 2px solid #861728;
+  border-bottom: 2px solid #800000;
   margin-bottom: 10px;
 }
 
@@ -125,16 +140,20 @@ footer {
 
 /* Responsive Layout */
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) {
 
-nav a {
-  display: block;
-  padding: 20px 0;
-}
+  /* * {
+    border: 1px solid black;
+  } */
 
-#app {
-  background: url(../images/my-gnp-crop.jpg);
-  background-size: cover;
-}
+  nav a {
+    display: block;
+    padding: 20px 0;
+  }
+
+  #app {
+    background: url(../images/my-gnp-crop.jpg);
+    background-size: cover;
+  }
 
 }

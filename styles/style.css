@@ -112,10 +112,10 @@ h1, h2, h3 {
 
 #locations {
   max-width: 100%; /* override section default */
-  /* padding: 0; */
 }
 
 #map {
+  display: none; /* only show on desktop */
   border: 0;
   width: 100%;
   height: 500px;
@@ -186,6 +186,7 @@ footer {
   }
 
   #map {
+    display: block;
     float: left;
     width: 50%;
     height: 100%;

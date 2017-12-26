@@ -95,11 +95,15 @@ h1, h2, h3 {
   max-width: 500px;
 }
 
+#downloads {
+  text-align: center;
+}
+
 .download-button {
-  width: 80%;
+  width: 90%;
   max-width: 400px;
-  display: block;
-  margin: 1em auto 0 auto;
+  margin: 0 auto;
+  margin-top: 1em;
 }
 
 /* Locations */

@@ -141,7 +141,23 @@ h1, h2, h3 {
   margin: 0;
 }
 
-#location-list a {
+#location-list a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+#location-list a:visited {
+  color: blue;
+}
+
+#location-list a:hover {
+  /* color: #800000; */
+  text-decoration: underline;
+}
+
+#location-list a:active {
+  /* color: white; */
+  /* background-color: #800000; */
   text-decoration: none;
 }
 

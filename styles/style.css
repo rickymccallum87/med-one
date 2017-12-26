@@ -43,7 +43,7 @@ nav li {
 }
 
 nav li:first-child {
-  /* display: none; */
+  display: none;
 }
 
 nav a:link {
@@ -172,7 +172,7 @@ footer {
   }
 
   #locations h2 {
-    /* display: none; */
+    display: none;
   }
 
   #map {

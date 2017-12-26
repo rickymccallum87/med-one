@@ -97,19 +97,22 @@ h1, h2, h3 {
 
 #downloads {
   text-align: center;
+  margin-top: .5em;
 }
 
 .download-button {
   width: 90%;
   max-width: 400px;
-  margin: 0 auto;
-  margin-top: 1em;
+  /* margin: 0 auto; */
+  /* margin-top: 1em; */
+  margin: .5em;
 }
 
 /* Locations */
 
 #locations {
   max-width: 100%; /* override section default */
+  /* padding: 0; */
 }
 
 #map {
@@ -126,14 +129,20 @@ h1, h2, h3 {
 #location-list ul li {
   list-style-type: none;
   display: inline-block;
-  margin-right: 2em;
-  padding-left: 1em;
-  border-left: 3px solid #800000;
+  padding: 0 .5em;
+  /* border-left: 3px solid #800000;
+  border-bottom: 3px solid #800000;
+  border-radius: .25em; */
   margin: .5em;
+  /* margin-left: 2em; */
 }
 
 #locations h3 {
   margin: 0;
+}
+
+#location-list a {
+  text-decoration: none;
 }
 
 /* Footer */
@@ -168,7 +177,8 @@ footer {
 
   #locations {
     height: 750px;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   #locations h2 {
@@ -186,10 +196,6 @@ footer {
     height: 100%;
     width: 50%;
     overflow-y: scroll;
-  }
-
-  #location-list ul {
-    margin-left: 2em;
   }
 
 }

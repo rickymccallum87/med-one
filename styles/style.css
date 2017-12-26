@@ -43,7 +43,7 @@ nav li {
 }
 
 nav li:first-child {
-  display: none;
+  /* display: none; */
 }
 
 nav a:link {
@@ -79,7 +79,7 @@ h1, h2, h3 {
 /* Slideshow */
 
 #home {
-  max-width: 100%;
+  max-width: 100%; /* override section default */
   height: 500px;
   background-image: url(https://placeimg.com/640/480/nature);
   background-size: cover;
@@ -109,7 +109,7 @@ h1, h2, h3 {
 /* Locations */
 
 #locations {
-  max-width: 100%;
+  max-width: 100%; /* override section default */
 }
 
 #map {
@@ -172,7 +172,7 @@ footer {
   }
 
   #locations h2 {
-    display: none;
+    /* display: none; */
   }
 
   #map {

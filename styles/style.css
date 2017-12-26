@@ -1,7 +1,7 @@
 /* Med One Red: #800000 #861728 */
-* {
-  /* border: 1px dotted black; */
-}
+/* * {
+  border: 1px dotted black;
+} */
 
 body {
   font-family: sans-serif;
@@ -148,7 +148,7 @@ footer {
     display: inline-block;
   }
 
-  /* Only useful if navigation follows user down the page */
+  /* Show 'Home' link in nav -- only if it follows user down the page */
   /* nav li:first-child {
     display: inline-block;
   } */
